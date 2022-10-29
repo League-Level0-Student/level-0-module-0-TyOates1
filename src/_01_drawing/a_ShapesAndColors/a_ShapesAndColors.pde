@@ -17,11 +17,14 @@
  ellipse(400,650,240,240); 
  fill(#030000);
  ellipse(400,450,15,15);
- ellipse(400,420,15,15);
  ellipse(400,390,15,15);
+ ellipse(400,510,15,15);
  ellipse(430,300,15,15);
  ellipse(370,300,15,15);
- rect(400,300,170,20);
+ rect(315,220,170,20);
+ rect(345,140,100,100);
+ fill(#ffa850);
+ triangle(400,300,400,320,420,310);
  ///The first 2 numbers specify where to draw it. They are the x and y co-ordinates of the center of the ellipse.
 //    The third and fourth numbers are the size of the ellipse.
 //    The width is specified before the height. If they are the same, it draws a circle
